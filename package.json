@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/sphism/slinky/issues"
   },
-  "homepage": "https://github.com/sphism/slinky#readme"
+  "homepage": "https://github.com/sphism/slinky#readme",
+  "devDependencies": {
+    "slinky_scaling": "0.0.1"
+  }
 }
