@@ -1,0 +1,14 @@
+{
+  "name": "slinky",
+  "version": "1.0.0",
+  "description": "Slinky SCSS library",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Matt Terry",
+  "license": "ISC"
+}
