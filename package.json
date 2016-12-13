@@ -1,14 +1,27 @@
 {
   "name": "slinky",
-  "version": "1.0.0",
-  "description": "Slinky SCSS library",
-  "main": "index.html",
+  "version": "0.0.1",
+  "description": "Slinky Responsive CSS Framework",
+  "main": "slinky.scss",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "css"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sphism/slinky.git"
+  },
   "author": "Matt Terry",
-  "license": "ISC"
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "scss",
+    "flexbox",
+    "grid",
+    "responsive",
+    "framework"
+  ],
+  "bugs": {
+    "url": "https://github.com/sphism/slinky/issues"
+  },
+  "homepage": "https://github.com/sphism/slinky#readme"
 }
