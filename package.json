@@ -27,6 +27,7 @@
   "devDependencies": {
     "slinky_scaling": "0.0.1",
     "slinky_spacing": "0.0.1",
-    "slinky_tiles": "0.0.1"
+    "slinky_tiles": "0.0.1",
+    "slinky_utilities": "0.0.1"
   }
 }
