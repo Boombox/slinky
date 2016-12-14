@@ -1,6 +1,6 @@
 {
   "name": "slinky",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Slinky Responsive CSS Framework",
   "main": "slinky.scss",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sphism/slinky.git"
+    "url": "git+https://github.com/Boombox/slinky.git"
   },
   "author": "Matt Terry",
   "license": "MIT",
@@ -21,9 +21,9 @@
     "framework"
   ],
   "bugs": {
-    "url": "https://github.com/sphism/slinky/issues"
+    "url": "https://github.com/Boombox/slinky/issues"
   },
-  "homepage": "https://github.com/sphism/slinky#readme",
+  "homepage": "https://github.com/Boombox/slinky#readme",
   "devDependencies": {
     "normalize-scss": "^6.0.0",
     "slinky_scaling": "^0.0.x",
