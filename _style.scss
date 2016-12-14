@@ -1,0 +1,20 @@
+// This is just for the demo page and not part of the library.
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+[class*='tile'] {
+  background: #eee;
+  outline: 1px dotted #ddd;
+}
+
+[class*='aspect-'] {
+  background: #ddd;
+  outline: 1px dotted #ccc;
+}
