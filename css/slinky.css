@@ -432,3 +432,18 @@ img.is-responsive,
   height: 0;
   padding-bottom: 83.3333333333%;
   overflow: hidden; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+* {
+  font-family: Helvetica, Arial, Sans-Serif; }
+
+[class*='tile'] {
+  background: #eee;
+  outline: 1px dotted #ddd; }
+
+[class*='aspect-'] {
+  background: #ddd;
+  outline: 1px dotted #ccc; }
