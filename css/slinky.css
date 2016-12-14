@@ -141,249 +141,306 @@
   .ie9 .tile-two-thirds {
     width: 66.6666666667%; }
 
+h1,
 h1.flexifont {
-  font-size: 36px;
-  line-height: 54px;
-  margin-top: 9px;
-  margin-bottom: 9px; }
+  font-size: 20.7385152499px;
+  line-height: 31.1077728749px;
+  margin-top: 20.4461135625px;
+  margin-bottom: 20.4461135625px; }
   @media screen and (min-width: 600px) {
+    h1,
     h1.flexifont {
-      font-size: calc(36px + 20 * (100vw - 600px) / 700); } }
+      font-size: calc(20.7385152499px + 19.0746047501 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h1,
     h1.flexifont {
-      font-size: 56px; } }
+      font-size: 39.81312px; } }
   @media screen and (min-width: 600px) {
+    h1,
     h1.flexifont {
-      line-height: calc(54px + 30 * (100vw - 600px) / 700); } }
+      line-height: calc(31.1077728749px + 28.6119071251 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h1,
     h1.flexifont {
-      line-height: 84px; } }
+      line-height: 59.71968px; } }
   @media screen and (min-width: 600px) {
+    h1,
     h1.flexifont {
-      margin-top: calc(9px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(9px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(20.4461135625px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(20.4461135625px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h1,
     h1.flexifont {
-      margin-top: 9px;
-      margin-bottom: 9px; } }
+      margin-top: 20.4461135625px;
+      margin-bottom: 20.4461135625px; } }
 
+h2,
 h2.flexifont {
-  font-size: 24px;
-  line-height: 36px;
-  margin-top: 18px;
-  margin-bottom: 18px; }
+  font-size: 19.436284208px;
+  line-height: 29.154426312px;
+  margin-top: 21.422786844px;
+  margin-bottom: 21.422786844px; }
   @media screen and (min-width: 600px) {
+    h2,
     h2.flexifont {
-      font-size: calc(24px + 6 * (100vw - 600px) / 700); } }
+      font-size: calc(19.436284208px + 13.741315792 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h2,
     h2.flexifont {
-      font-size: 30px; } }
+      font-size: 33.1776px; } }
   @media screen and (min-width: 600px) {
+    h2,
     h2.flexifont {
-      line-height: calc(36px + 9 * (100vw - 600px) / 700); } }
+      line-height: calc(29.154426312px + 20.611973688 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h2,
     h2.flexifont {
-      line-height: 45px; } }
+      line-height: 49.7664px; } }
   @media screen and (min-width: 600px) {
+    h2,
     h2.flexifont {
-      margin-top: calc(18px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(18px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(21.422786844px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(21.422786844px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h2,
     h2.flexifont {
-      margin-top: 18px;
-      margin-bottom: 18px; } }
+      margin-top: 21.422786844px;
+      margin-bottom: 21.422786844px; } }
 
+h3,
 h3.flexifont {
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 22.5px;
-  margin-bottom: 22.5px; }
+  font-size: 18.215824px;
+  line-height: 27.323736px;
+  margin-top: 22.338132px;
+  margin-bottom: 22.338132px; }
   @media screen and (min-width: 600px) {
+    h3,
     h3.flexifont {
-      font-size: calc(18px + 4 * (100vw - 600px) / 700); } }
+      font-size: calc(18.215824px + 9.432176 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h3,
     h3.flexifont {
-      font-size: 22px; } }
+      font-size: 27.648px; } }
   @media screen and (min-width: 600px) {
+    h3,
     h3.flexifont {
-      line-height: calc(27px + 6 * (100vw - 600px) / 700); } }
+      line-height: calc(27.323736px + 14.148264 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h3,
     h3.flexifont {
-      line-height: 33px; } }
+      line-height: 41.472px; } }
   @media screen and (min-width: 600px) {
+    h3,
     h3.flexifont {
-      margin-top: calc(22.5px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(22.5px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(22.338132px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(22.338132px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h3,
     h3.flexifont {
-      margin-top: 22.5px;
-      margin-bottom: 22.5px; } }
+      margin-top: 22.338132px;
+      margin-bottom: 22.338132px; } }
 
+h4,
 h4.flexifont {
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 22.5px;
-  margin-bottom: 22.5px; }
+  font-size: 17.072px;
+  line-height: 25.608px;
+  margin-top: 23.196px;
+  margin-bottom: 23.196px; }
   @media screen and (min-width: 600px) {
+    h4,
     h4.flexifont {
-      font-size: calc(18px + 4 * (100vw - 600px) / 700); } }
+      font-size: calc(17.072px + 5.968 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h4,
     h4.flexifont {
-      font-size: 22px; } }
+      font-size: 23.04px; } }
   @media screen and (min-width: 600px) {
+    h4,
     h4.flexifont {
-      line-height: calc(27px + 6 * (100vw - 600px) / 700); } }
+      line-height: calc(25.608px + 8.952 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h4,
     h4.flexifont {
-      line-height: 33px; } }
+      line-height: 34.56px; } }
   @media screen and (min-width: 600px) {
+    h4,
     h4.flexifont {
-      margin-top: calc(22.5px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(22.5px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(23.196px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(23.196px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h4,
     h4.flexifont {
-      margin-top: 22.5px;
-      margin-bottom: 22.5px; } }
+      margin-top: 23.196px;
+      margin-bottom: 23.196px; } }
 
+h5,
 h5.flexifont {
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 22.5px;
-  margin-bottom: 22.5px; }
+  font-size: 17.072px;
+  line-height: 25.608px;
+  margin-top: 23.196px;
+  margin-bottom: 23.196px; }
   @media screen and (min-width: 600px) {
+    h5,
     h5.flexifont {
-      font-size: calc(18px + 4 * (100vw - 600px) / 700); } }
+      font-size: calc(17.072px + 5.968 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h5,
     h5.flexifont {
-      font-size: 22px; } }
+      font-size: 23.04px; } }
   @media screen and (min-width: 600px) {
+    h5,
     h5.flexifont {
-      line-height: calc(27px + 6 * (100vw - 600px) / 700); } }
+      line-height: calc(25.608px + 8.952 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h5,
     h5.flexifont {
-      line-height: 33px; } }
+      line-height: 34.56px; } }
   @media screen and (min-width: 600px) {
+    h5,
     h5.flexifont {
-      margin-top: calc(22.5px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(22.5px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(23.196px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(23.196px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h5,
     h5.flexifont {
-      margin-top: 22.5px;
-      margin-bottom: 22.5px; } }
+      margin-top: 23.196px;
+      margin-bottom: 23.196px; } }
 
+h6,
 h6.flexifont {
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 22.5px;
-  margin-bottom: 22.5px; }
+  font-size: 17.072px;
+  line-height: 25.608px;
+  margin-top: 23.196px;
+  margin-bottom: 23.196px; }
   @media screen and (min-width: 600px) {
+    h6,
     h6.flexifont {
-      font-size: calc(18px + 4 * (100vw - 600px) / 700); } }
+      font-size: calc(17.072px + 5.968 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h6,
     h6.flexifont {
-      font-size: 22px; } }
+      font-size: 23.04px; } }
   @media screen and (min-width: 600px) {
+    h6,
     h6.flexifont {
-      line-height: calc(27px + 6 * (100vw - 600px) / 700); } }
+      line-height: calc(25.608px + 8.952 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h6,
     h6.flexifont {
-      line-height: 33px; } }
+      line-height: 34.56px; } }
   @media screen and (min-width: 600px) {
+    h6,
     h6.flexifont {
-      margin-top: calc(22.5px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(22.5px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(23.196px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(23.196px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
+    h6,
     h6.flexifont {
-      margin-top: 22.5px;
-      margin-bottom: 22.5px; } }
+      margin-top: 23.196px;
+      margin-bottom: 23.196px; } }
 
+p,
 p.flexifont {
-  font-size: 18px;
-  line-height: 27px;
-  margin-top: 22.5px;
-  margin-bottom: 22.5px; }
-  @media screen and (min-width: 600px) {
-    p.flexifont {
-      font-size: calc(18px + 4 * (100vw - 600px) / 700); } }
-  @media screen and (min-width: 1300px) {
-    p.flexifont {
-      font-size: 22px; } }
-  @media screen and (min-width: 600px) {
-    p.flexifont {
-      line-height: calc(27px + 6 * (100vw - 600px) / 700); } }
-  @media screen and (min-width: 1300px) {
-    p.flexifont {
-      line-height: 33px; } }
-  @media screen and (min-width: 600px) {
-    p.flexifont {
-      margin-top: calc(22.5px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(22.5px + 0 * (100vw - 600px) / 700); } }
-  @media screen and (min-width: 1300px) {
-    p.flexifont {
-      margin-top: 22.5px;
-      margin-bottom: 22.5px; } }
-
-small.flexifont {
   font-size: 16px;
   line-height: 24px;
   margin-top: 24px;
   margin-bottom: 24px; }
   @media screen and (min-width: 600px) {
-    small.flexifont {
-      font-size: calc(16px + 0 * (100vw - 600px) / 700); } }
+    p,
+    p.flexifont {
+      font-size: calc(16px + 3.2 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
-    small.flexifont {
-      font-size: 16px; } }
+    p,
+    p.flexifont {
+      font-size: 19.2px; } }
   @media screen and (min-width: 600px) {
-    small.flexifont {
-      line-height: calc(24px + 0 * (100vw - 600px) / 700); } }
+    p,
+    p.flexifont {
+      line-height: calc(24px + 4.8 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
-    small.flexifont {
-      line-height: 24px; } }
+    p,
+    p.flexifont {
+      line-height: 28.8px; } }
   @media screen and (min-width: 600px) {
-    small.flexifont {
+    p,
+    p.flexifont {
       margin-top: calc(24px + 0 * (100vw - 600px) / 700);
       margin-bottom: calc(24px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
-    small.flexifont {
+    p,
+    p.flexifont {
       margin-top: 24px;
       margin-bottom: 24px; } }
 
+small,
+small.flexifont {
+  font-size: 14.9953139644px;
+  line-height: 22.4929709466px;
+  margin-top: 24.7535145267px;
+  margin-bottom: 24.7535145267px; }
+  @media screen and (min-width: 600px) {
+    small,
+    small.flexifont {
+      font-size: calc(14.9953139644px + 1.0046860356 * (100vw - 600px) / 700); } }
+  @media screen and (min-width: 1300px) {
+    small,
+    small.flexifont {
+      font-size: 16px; } }
+  @media screen and (min-width: 600px) {
+    small,
+    small.flexifont {
+      line-height: calc(22.4929709466px + 1.5070290534 * (100vw - 600px) / 700); } }
+  @media screen and (min-width: 1300px) {
+    small,
+    small.flexifont {
+      line-height: 24px; } }
+  @media screen and (min-width: 600px) {
+    small,
+    small.flexifont {
+      margin-top: calc(24.7535145267px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(24.7535145267px + 0 * (100vw - 600px) / 700); } }
+  @media screen and (min-width: 1300px) {
+    small,
+    small.flexifont {
+      margin-top: 24.7535145267px;
+      margin-bottom: 24.7535145267px; } }
+
 .has-padding {
-  padding: 1vw 1.6vw; }
+  padding: 1vw 1vw; }
 
 .has-y-padding {
   padding-top: 1vw;
   padding-bottom: 1vw; }
 
 .has-x-padding {
-  padding-left: 1.6vw;
-  padding-right: 1.6vw; }
+  padding-left: 1vw;
+  padding-right: 1vw; }
 
 .has-left-padding {
-  padding-left: 1.6vw; }
+  padding-left: 1vw; }
 
 .has-right-padding {
-  padding-right: 1.6vw; }
+  padding-right: 1vw; }
 
 .has-margin {
-  margin: 1vw 1.6vw; }
+  margin: 1vw 1vw; }
 
 .has-y-margin {
   margin-top: 1vw;
   margin-bottom: 1vw; }
 
 .has-x-margin {
-  margin-left: 1.6vw;
-  margin-right: 1.6vw; }
+  margin-left: 1vw;
+  margin-right: 1vw; }
 
 .has-left-margin {
-  margin-left: 1.6vw; }
+  margin-left: 1vw; }
 
 .has-right-margin {
-  margin-right: 1.6vw; }
+  margin-right: 1vw; }
 
-.is-full-width {
+.is-full-width,
+[class*='tile'] p {
   width: 100%; }
 
 .short-reading-text {
@@ -442,8 +499,4 @@ body {
 
 [class*='tile'] {
   background: #eee;
-  outline: 1px dotted #ddd; }
-
-[class*='aspect-'] {
-  background: #ddd;
-  outline: 1px dotted #ccc; }
+  outline: 1px dashed #666; }

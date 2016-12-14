@@ -11,10 +11,16 @@ body {
 
 [class*='tile'] {
   background: #eee;
-  outline: 1px dotted #ddd;
+  outline: 1px dashed #666;
+
+  p {
+    //@extend %centered-text;
+    @extend %is-full-width;
+  }
 }
 
-[class*='aspect-'] {
-  background: #ddd;
-  outline: 1px dotted #ccc;
-}
+//[class*='aspect-'] {
+//  background: #ddd;
+//  outline: 1px dotted #ccc;
+//}
+
