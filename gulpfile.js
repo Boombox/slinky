@@ -20,7 +20,7 @@ gulp.task('sass', function() {
   return gulp.src('*.scss') // Gets all files ending with .scss in app/scss
     .pipe(sass())
     .pipe(sourcemaps.init())
-    //.pipe(postcss([ flexbugsFixes ]))
+    .pipe(postcss([ flexbugsFixes ]))
     .pipe(postcss([ autoprefixer() ]))
     .pipe(sourcemaps.write('.'))
     .pipe(gulp.dest('css'))
