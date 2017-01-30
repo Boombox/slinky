@@ -3,14 +3,14 @@
  */
 h1,
 h1.flexifont {
-  font-size: 20.7385152499px;
-  line-height: 31.1077728749px;
-  margin-top: 20.4461135625px;
-  margin-bottom: 20.4461135625px; }
+  font-size: 20.73852px;
+  line-height: 31.10777px;
+  margin-top: 20.44611px;
+  margin-bottom: 20.44611px; }
   @media screen and (min-width: 600px) {
     h1,
     h1.flexifont {
-      font-size: calc(20.7385152499px + 19.0746047501 * (100vw - 600px) / 700); } }
+      font-size: calc(20.73852px + 19.0746 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h1,
     h1.flexifont {
@@ -18,7 +18,7 @@ h1.flexifont {
   @media screen and (min-width: 600px) {
     h1,
     h1.flexifont {
-      line-height: calc(31.1077728749px + 28.6119071251 * (100vw - 600px) / 700); } }
+      line-height: calc(31.10777px + 28.61191 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h1,
     h1.flexifont {
@@ -26,24 +26,24 @@ h1.flexifont {
   @media screen and (min-width: 600px) {
     h1,
     h1.flexifont {
-      margin-top: calc(20.4461135625px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(20.4461135625px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(20.44611px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(20.44611px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h1,
     h1.flexifont {
-      margin-top: 20.4461135625px;
-      margin-bottom: 20.4461135625px; } }
+      margin-top: 20.44611px;
+      margin-bottom: 20.44611px; } }
 
 h2,
 h2.flexifont {
-  font-size: 19.436284208px;
-  line-height: 29.154426312px;
-  margin-top: 21.422786844px;
-  margin-bottom: 21.422786844px; }
+  font-size: 19.43628px;
+  line-height: 29.15443px;
+  margin-top: 21.42279px;
+  margin-bottom: 21.42279px; }
   @media screen and (min-width: 600px) {
     h2,
     h2.flexifont {
-      font-size: calc(19.436284208px + 13.741315792 * (100vw - 600px) / 700); } }
+      font-size: calc(19.43628px + 13.74132 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h2,
     h2.flexifont {
@@ -51,7 +51,7 @@ h2.flexifont {
   @media screen and (min-width: 600px) {
     h2,
     h2.flexifont {
-      line-height: calc(29.154426312px + 20.611973688 * (100vw - 600px) / 700); } }
+      line-height: calc(29.15443px + 20.61197 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h2,
     h2.flexifont {
@@ -59,24 +59,24 @@ h2.flexifont {
   @media screen and (min-width: 600px) {
     h2,
     h2.flexifont {
-      margin-top: calc(21.422786844px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(21.422786844px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(21.42279px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(21.42279px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h2,
     h2.flexifont {
-      margin-top: 21.422786844px;
-      margin-bottom: 21.422786844px; } }
+      margin-top: 21.42279px;
+      margin-bottom: 21.42279px; } }
 
 h3,
 h3.flexifont {
-  font-size: 18.215824px;
-  line-height: 27.323736px;
-  margin-top: 22.338132px;
-  margin-bottom: 22.338132px; }
+  font-size: 18.21582px;
+  line-height: 27.32374px;
+  margin-top: 22.33813px;
+  margin-bottom: 22.33813px; }
   @media screen and (min-width: 600px) {
     h3,
     h3.flexifont {
-      font-size: calc(18.215824px + 9.432176 * (100vw - 600px) / 700); } }
+      font-size: calc(18.21582px + 9.43218 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h3,
     h3.flexifont {
@@ -84,7 +84,7 @@ h3.flexifont {
   @media screen and (min-width: 600px) {
     h3,
     h3.flexifont {
-      line-height: calc(27.323736px + 14.148264 * (100vw - 600px) / 700); } }
+      line-height: calc(27.32374px + 14.14826 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h3,
     h3.flexifont {
@@ -92,13 +92,13 @@ h3.flexifont {
   @media screen and (min-width: 600px) {
     h3,
     h3.flexifont {
-      margin-top: calc(22.338132px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(22.338132px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(22.33813px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(22.33813px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     h3,
     h3.flexifont {
-      margin-top: 22.338132px;
-      margin-bottom: 22.338132px; } }
+      margin-top: 22.33813px;
+      margin-bottom: 22.33813px; } }
 
 h4,
 h4.flexifont {
@@ -234,14 +234,14 @@ p.flexifont {
 
 small,
 small.flexifont {
-  font-size: 14.9953139644px;
-  line-height: 22.4929709466px;
-  margin-top: 24.7535145267px;
-  margin-bottom: 24.7535145267px; }
+  font-size: 14.99531px;
+  line-height: 22.49297px;
+  margin-top: 24.75351px;
+  margin-bottom: 24.75351px; }
   @media screen and (min-width: 600px) {
     small,
     small.flexifont {
-      font-size: calc(14.9953139644px + 1.0046860356 * (100vw - 600px) / 700); } }
+      font-size: calc(14.99531px + 1.00469 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     small,
     small.flexifont {
@@ -249,7 +249,7 @@ small.flexifont {
   @media screen and (min-width: 600px) {
     small,
     small.flexifont {
-      line-height: calc(22.4929709466px + 1.5070290534 * (100vw - 600px) / 700); } }
+      line-height: calc(22.49297px + 1.50703 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     small,
     small.flexifont {
@@ -257,13 +257,13 @@ small.flexifont {
   @media screen and (min-width: 600px) {
     small,
     small.flexifont {
-      margin-top: calc(24.7535145267px + 0 * (100vw - 600px) / 700);
-      margin-bottom: calc(24.7535145267px + 0 * (100vw - 600px) / 700); } }
+      margin-top: calc(24.75351px + 0 * (100vw - 600px) / 700);
+      margin-bottom: calc(24.75351px + 0 * (100vw - 600px) / 700); } }
   @media screen and (min-width: 1300px) {
     small,
     small.flexifont {
-      margin-top: 24.7535145267px;
-      margin-bottom: 24.7535145267px; } }
+      margin-top: 24.75351px;
+      margin-bottom: 24.75351px; } }
 
 .has-padding {
   padding: 1vw 1vw; }
@@ -320,13 +320,13 @@ small.flexifont {
   margin: auto;
   max-width: 1800px;
   width: 100%; }
-  .ie9 .grid, .ie9
-  .grid-1, .ie9
-  .grid-2, .ie9
-  .grid-3, .ie9
-  .grid-4, .ie9
-  .grid-5, .ie9
-  .grid-6 {
+  .ie9 .grid,
+  .ie9 .grid-1,
+  .ie9 .grid-2,
+  .ie9 .grid-3,
+  .ie9 .grid-4,
+  .ie9 .grid-5,
+  .ie9 .grid-6 {
     display: table;
     width: 100%; }
   .grid,
@@ -336,13 +336,7 @@ small.flexifont {
   .grid-3,
   .grid-4,
   .grid-5,
-  .grid-6,
-  .grid-1 *,
-  .grid-2 *,
-  .grid-3 *,
-  .grid-4 *,
-  .grid-5 *,
-  .grid-6 * {
+  .grid-6, .grid-1 *, .grid-2 *, .grid-3 *, .grid-4 *, .grid-5 *, .grid-6 * {
     box-sizing: border-box; }
 
 .tile,
@@ -466,37 +460,37 @@ ul[class*='grid-'] {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 33.3333333333%;
-  flex-basis: 33.3333333333%; }
+  min-width: 33.33333%;
+  flex-basis: 33.33333%; }
   .ie9 .grid-3 > .tile-1 {
-    width: 33.3333333333%; }
+    width: 33.33333%; }
 
 .tile-1of3 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 33.3333333333%;
-  flex-basis: 33.3333333333%; }
+  min-width: 33.33333%;
+  flex-basis: 33.33333%; }
   .ie9 .tile-1of3 {
-    width: 33.3333333333%; }
+    width: 33.33333%; }
 
 .grid-3 > .tile-2 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 66.6666666667%;
-  flex-basis: 66.6666666667%; }
+  min-width: 66.66667%;
+  flex-basis: 66.66667%; }
   .ie9 .grid-3 > .tile-2 {
-    width: 66.6666666667%; }
+    width: 66.66667%; }
 
 .tile-2of3 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 66.6666666667%;
-  flex-basis: 66.6666666667%; }
+  min-width: 66.66667%;
+  flex-basis: 66.66667%; }
   .ie9 .tile-2of3 {
-    width: 66.6666666667%; }
+    width: 66.66667%; }
 
 .grid-3 > .tile-3 {
   flex-grow: 0;
@@ -682,37 +676,37 @@ ul[class*='grid-'] {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 16.6666666667%;
-  flex-basis: 16.6666666667%; }
+  min-width: 16.66667%;
+  flex-basis: 16.66667%; }
   .ie9 .grid-6 > .tile-1 {
-    width: 16.6666666667%; }
+    width: 16.66667%; }
 
 .tile-1of6 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 16.6666666667%;
-  flex-basis: 16.6666666667%; }
+  min-width: 16.66667%;
+  flex-basis: 16.66667%; }
   .ie9 .tile-1of6 {
-    width: 16.6666666667%; }
+    width: 16.66667%; }
 
 .grid-6 > .tile-2 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 33.3333333333%;
-  flex-basis: 33.3333333333%; }
+  min-width: 33.33333%;
+  flex-basis: 33.33333%; }
   .ie9 .grid-6 > .tile-2 {
-    width: 33.3333333333%; }
+    width: 33.33333%; }
 
 .tile-2of6 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 33.3333333333%;
-  flex-basis: 33.3333333333%; }
+  min-width: 33.33333%;
+  flex-basis: 33.33333%; }
   .ie9 .tile-2of6 {
-    width: 33.3333333333%; }
+    width: 33.33333%; }
 
 .grid-6 > .tile-3 {
   flex-grow: 0;
@@ -736,37 +730,37 @@ ul[class*='grid-'] {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 66.6666666667%;
-  flex-basis: 66.6666666667%; }
+  min-width: 66.66667%;
+  flex-basis: 66.66667%; }
   .ie9 .grid-6 > .tile-4 {
-    width: 66.6666666667%; }
+    width: 66.66667%; }
 
 .tile-4of6 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 66.6666666667%;
-  flex-basis: 66.6666666667%; }
+  min-width: 66.66667%;
+  flex-basis: 66.66667%; }
   .ie9 .tile-4of6 {
-    width: 66.6666666667%; }
+    width: 66.66667%; }
 
 .grid-6 > .tile-5 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 83.3333333333%;
-  flex-basis: 83.3333333333%; }
+  min-width: 83.33333%;
+  flex-basis: 83.33333%; }
   .ie9 .grid-6 > .tile-5 {
-    width: 83.3333333333%; }
+    width: 83.33333%; }
 
 .tile-5of6 {
   flex-grow: 0;
   flex-shrink: 0;
   overflow: hidden;
-  min-width: 83.3333333333%;
-  flex-basis: 83.3333333333%; }
+  min-width: 83.33333%;
+  flex-basis: 83.33333%; }
   .ie9 .tile-5of6 {
-    width: 83.3333333333%; }
+    width: 83.33333%; }
 
 .grid-6 > .tile-6 {
   flex-grow: 0;
@@ -790,13 +784,17 @@ ul[class*='grid-'] {
   flex-direction: column;
   height: 100%; }
 
-.tiles-have-margin > .tile, .tiles-have-margin > [class*='tile-'], .tiles-have-margin > .tile-auto {
+.tiles-have-margin > .tile,
+.tiles-have-margin > [class*='tile-'],
+.tiles-have-margin > .tile-auto {
   margin: 1vw 1vw; }
 
 ul.tiles-have-margin > li {
   margin: 1vw 1vw; }
 
-.padded-grid > .tile, .padded-grid > [class*='tile-'], .padded-grid > .tile-auto {
+.padded-grid > .tile,
+.padded-grid > [class*='tile-'],
+.padded-grid > .tile-auto {
   padding: 1vw 1vw;
   background-clip: content-box; }
 
@@ -807,7 +805,9 @@ ul.padded-grid > li {
   padding: 1vw 1vw;
   background-clip: content-box; }
 
-.cards-have-padding > .tile > .card, .cards-have-padding > [class*='tile-'] > .card, .cards-have-padding > .tile-auto > .card {
+.cards-have-padding > .tile > .card,
+.cards-have-padding > [class*='tile-'] > .card,
+.cards-have-padding > .tile-auto > .card {
   padding: 1vw 1vw;
   background-clip: content-box; }
 
@@ -830,7 +830,7 @@ ol.hex-grid > li {
   outline: 1px dotted orange;
   width: 200px;
   height: 0;
-  padding-bottom: 230.9468822171px;
+  padding-bottom: 230.94688px;
   float: left;
   transform-origin: 50% 50%;
   transform: rotate(-60deg) skewY(30deg);
@@ -846,8 +846,7 @@ ol.hex-grid > li {
     position: relative;
     bottom: -165px;
     left: -86px; }
-  .hex-tile article,
-  ul.hex-grid > li article,
+  .hex-tile article, ul.hex-grid > li article,
   ol.hex-grid > li article {
     opacity: 0.5;
     background: url(http://placehold.it/200x200) no-repeat 50% 50%;
@@ -910,7 +909,7 @@ img.is-responsive,
 .aspect--is-6to5 {
   width: 100%;
   height: 0;
-  padding-bottom: 83.3333333333%;
+  padding-bottom: 83.33333%;
   overflow: hidden; }
 
 body {
@@ -932,3 +931,6 @@ ul.grid li {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
     outline: 1px dashed #f00; }
+
+body {
+  background: white; }
