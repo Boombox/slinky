@@ -1,5 +1,11 @@
-<!doctype html>
-<html class="no-js" lang="">
+<!DOCTYPE html>
+<!--[if IEMobile 7]><html class="iem7 no-js"><![endif]-->
+<!--[if lte IE 6]><html class="lt-ie9 lt-ie8 lt-ie7 no-js"><![endif]-->
+<!--[if (IE 7)&(!IEMobile)]><html class="lt-ie9 lt-ie8 no-js"><![endif]-->
+<!--[if IE 8]><html class="lt-ie9 no-js"><![endif]-->
+<!--[if IE 9]><html class="ie9 no-js"><![endif]-->
+<!--[if (gte IE 10)|(gt IEMobile 7)]><!--><html class="no-js" lang=""><!--<![endif]-->
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -42,68 +48,76 @@
       <h2 class="title">Grid tiles</h2>
     </header>
 
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
+    <!-- If you use div.grid then you need to use div.tile for each tile -->
+    <div class="grid cards-have-padding">
+      <div class="tile"><div class="card"><p>tile</p></div></div>
     </div>
 
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-    </div>
+    <!-- If you use ul.grid then li defaults to the same styling as li.tile -->
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-    </div>
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-    </div>
-
-
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-    </div>
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
 
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-    </div>
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li>
+        <div class="grid-3 cards-have-padding">
+          <div class="tile-3"><div class="card"><p>tile</p></div></div>
+          <div class="tile-1"><div class="card"><p>tile</p></div></div>
+          <div class="tile-2"><div class="card"><p>tile</p></div></div>
+        </div>
+      </li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
 
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-    </div>
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li class="tile-2"><div class="card"><p>tile tile tile tile tile tile tile tile tile tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
-    <div class="grid">
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-      <div class="tile-auto"><p>tile</p></div>
-    </div>
+
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
+
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
   </section>
 
   <section class="container centered-text">
@@ -111,68 +125,102 @@
       <h2 class="title">Grid tiles with margins</h2>
     </header>
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
+    <div class="grid cards-have-padding">
+      <div class="tile"><div class="card"><p>tile</p></div></div>
     </div>
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
+    <!-- Or slightly less verbose -->
+    <div class="grid cards-have-padding">
+      <div class="tile"><div class="card"><p>tile</p></div></div>
+      <div class="tile"><div class="card"><p>tile</p></div></div>
     </div>
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
+    <div class="grid-3 cards-have-padding">
+      <div class="tile-1"><div class="card"><p>tile</p></div></div>
+      <div class="tile-2 grid cards-have-padding">
+          <div class="tile">
+            <div class="card"><p>tile</p></div>
+          </div>
+          <div class="tile-1of2">
+            <div class="card"><p>tile</p></div>
+          </div>
+      </div>
     </div>
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
+    <div class="grid-3 cards-have-padding">
+      <div class="tile-1"><div class="card"><p>tile</p></div></div>
+      <div class="tile-2 cards-have-padding">
+          <div class="tile">
+            <div class="card"><p>tile</p></div>
+          </div>
+          <div class="tile-1of2">
+            <div class="card"><p>tile</p></div>
+          </div>
+      </div>
     </div>
 
+    <!-- Or even easier -->
+    <ul class="grid-3 cards-have-padding">
+      <li class="tile-1"><div class="card"><p>tile</p></div></li>
+      <li class="tile-1" style="padding: 0;">
+        <div class="grid-2 test-is-column cards-have-padding">
+          <div class="tile-2"><div class="card"><p>tile</p></div></div>
+          <div class="tile-1"><div class="card"><p>tile</p></div></div>
+          <div class="tile-1"><div class="card"><p>tile</p></div></div>
+          <div class="tile-2"><div class="card"><p>tile</p></div></div>
+        </div>
+      </li>
+      <li class="tile-1"><div class="card"><p>tile</p></div></li>
+    </ul>
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-    </div>
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-    </div>
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-    </div>
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
 
-    <div class="grid">
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-      <div class="tile-auto has-margin"><p>tile</p></div>
-    </div>
+
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
+
+    <ul class="grid cards-have-padding">
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+      <li><div class="card"><p>tile</p></div></li>
+    </ul>
+
   </section>
 
   <section class="container centered-text">
@@ -181,33 +229,136 @@
       <h2 class="title">Grid tiles spanning various number of columns</h2>
     </header>
 
-    <div class="grid">
-      <div class="tile-1"><p>tile-1</p></div>
-      <div class="tile-1"><p>tile-1</p></div>
-      <div class="tile-1"><p>tile-1</p></div>
-      <div class="tile-1"><p>tile-1</p></div>
+    <div class="grid cards-have-padding">
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
     </div>
 
-    <div class="grid">
-      <div class="tile-2"><p>tile-2</p></div>
-      <div class="tile-1"><p>tile-1</p></div>
-      <div class="tile-1"><p>tile-1</p></div>
+    <div class="grid cards-have-padding">
+      <div class="tile-2of4"><div class="card"><p>tile-2of4</p></div></div>
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
     </div>
 
-    <div class="grid">
-      <div class="tile-1"><p>tile-1</p></div>
-      <div class="tile-1"><p>tile-1</p></div>
-      <div class="tile-2"><p>tile-2</p></div>
+     <ul class="grid cards-have-padding">
+      <ul class="tile-2of4 cards-have-padding">
+        <li class="tile-1of3"><div class="card"><p>tile-1of3</p></div></li>
+        <li class="tile-1of3"><div class="card"><p>tile-1of3</p></div></li>
+        <li class="tile-1of3"><div class="card"><p>tile-1of3</p></div></li>
+      </ul>
+      <li class="tile-1of4"><div class="card"><p>tile-1of4</p></div></li>
+      <li class="tile-1of4"><div class="card"><p>tile-1of4</p></div></li>
+    </ul>
+
+    <ul class="grid cards-have-padding">
+      <li class="tile-1of6"><div class="card"><p>tile-1of6</p></div></li>
+      <li class="tile-1of6"><div class="card"><p>tile-1of6</p></div></li>
+      <li class="tile-1of6"><div class="card"><p>tile-1of6</p></div></li>
+      <li class="tile-1of4"><div class="card"><p>tile-1of4</p></div></li>
+      <li class="tile-1of4"><div class="card"><p>tile-1of4</p></div></li>
+    </ul>
+
+    <div class="grid cards-have-padding">
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
+      <div class="tile-2of4"><div class="card"><p>tile-2of4</p></div></div>
     </div>
 
-    <div class="grid">
-      <div class="tile-3"><p>tile-3</p></div>
-      <div class="tile-1"><p>tile-1</p></div>
+    <div class="grid cards-have-padding">
+      <div class="tile-3of4"><div class="card"><p>tile-3of4</p></div></div>
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
     </div>
 
-    <div class="grid">
-      <div class="tile-1"><p>tile-1</p></div>
-      <div class="tile-3"><p>tile-3</p></div>
+    <div class="grid cards-have-padding">
+      <div class="tile-1of4"><div class="card"><p>tile-1of4</p></div></div>
+      <div class="tile-3of4"><div class="card"><p>tile-3of4</p></div></div>
+    </div>
+
+  <section class="container centered-text">
+
+    <header class="has-x-padding">
+      <h2 class="title">Grid tiles spanning various number of columns</h2>
+    </header>
+
+    <div class="grid cards-have-padding">
+      <div class="tile-1of3"><div class="card"><p>tile-1of3</p></div></div>
+      <div class="tile-1of3"><div class="card"><p>tile-1of3</p></div></div>
+      <div class="tile-1of3"><div class="card"><p>tile-1of3</p></div></div>
+      <div class="tile-1of3"><div class="card"><p>tile-1of3</p></div></div>
+      <div class="tile-1of3"><div class="card"><p>tile-1of3</p></div></div>
+    </div>
+
+    <div class="grid cards-have-padding">
+      <div class="tile-2of3"><div class="card"><p>tile-2of3</p></div></div>
+      <div class="tile-1of3"><div class="card"><p>tile-1of3</p></div></div>
+    </div>
+
+    <div class="grid cards-have-padding">
+      <div class="tile-1of3"><div class="card"><p>tile-1of3</p></div></div>
+      <div class="tile-2of3"><div class="card"><p>tile-2of3</p></div></div>
+    </div>
+  </section>
+
+  <section class="container centered-text">
+
+    <header class="has-x-padding">
+      <h2 class="title">The other way to do it is instead of grid > tile-1of3 you can use grid-3 > tile-1</h2>
+    </header>
+
+    <div class="grid-3 cards-have-padding">
+      <div class="tile-1"><div class="card"><p>tile-1</p></div></div>
+      <div class="tile-1"><div class="card"><p>tile-1</p></div></div>
+      <div class="tile-1"><div class="card"><p>tile-1</p></div></div>
+      <div class="tile-1"><div class="card"><p>tile-1</p></div></div>
+      <div class="tile-1"><div class="card"><p>tile-1</p></div></div>
+    </div>
+
+    <div class="grid-3 cards-have-padding">
+      <div class="tile-2"><div class="card"><p>tile-2</p></div></div>
+      <div class="tile-1"><div class="card"><p>tile-1</p></div></div>
+    </div>
+
+    <div class="grid-3 cards-have-padding">
+      <div class="tile-1"><div class="card"><p>tile-1</p></div></div>
+      <div class="tile-2"><div class="card"><p>tile-2</p></div></div>
+    </div>
+  </section>
+
+  <section id="grid-test" class="container centered-text">
+
+    <header class="has-x-padding">
+      <h2 class="title">Grid test</h2>
+    </header>
+
+    <div class="grid cards-have-padding">
+      <div class="tile-2of3 cards-have-padding">
+        <div class="tile-2of2 cards-have-padding">
+
+          <div class="tile-1of2 cards-have-padding">
+            <div class="tile-1of1">
+              <div class="card"><p>top tile</p></div>
+            </div>
+            <div class="tile-1of1">
+              <div class="card"><p>top tile</p></div>
+            </div>
+          </div>
+
+          <div class="tile-1of2">
+            <div class="card"><p>middle tile</p></div>
+          </div>
+
+        </div>
+
+        <div class="tile-2of2">
+          <div class="card"><p>wide tile</p></div>
+        </div>
+      </div>
+
+      <div class="tile-1of3">
+        <div class="card"><p>tall tile</p></div>
+      </div>
     </div>
   </section>
 
@@ -222,9 +373,21 @@
     <h4>Header 4</h4>
     <!-- <h5>Header 5</h5> -->
     <!-- <h6>Header 6</h6> -->
-    <p>Paragraph</p>
+    <div class="card">Paragraph</div>
     <small>Small</small>
   </section>
+
+  <section class="container centered-text">
+    <header class="has-x-padding">
+      <h2 class="title">Hex Tiles</h2>
+    </header>
+
+    <!-- <ul class="hex-grid">
+      <li><article></article></li>
+      <li><article></article></li>
+      <li><article></article></li>
+      <li><article></article></li>
+    </ul> -->
 
 </div>
 

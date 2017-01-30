@@ -1,146 +1,6 @@
 /**
  * Slinky
  */
-.container {
-  max-width: 1800px;
-  margin: auto; }
-
-.grid-wrapper {
-  width: 100%; }
-
-.grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: auto;
-  max-width: 1800px;
-  width: 100%; }
-  .ie9 .grid {
-    display: table;
-    width: 100%; }
-
-.tile,
-[class*='tile-'] {
-  justify-content: flex-start;
-  align-items: stretch;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0;
-  margin: 0; }
-  .ie9 .tile, .ie9
-  [class*='tile-'] {
-    display: table-cell;
-    float: left; }
-  .tile div,
-  [class*='tile-'] div {
-    max-width: 100%; }
-
-.tile-auto {
-  flex-grow: 1;
-  width: auto; }
-
-.grid__col,
-[class*='grid__col'] {
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 0%;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  padding: 0;
-  margin: 0; }
-  .ie9 .grid__col, .ie9
-  [class*='grid__col'] {
-    display: table-cell;
-    float: left; }
-
-.grid__row,
-[class*='grid__row'] {
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  padding: 0;
-  margin: 0; }
-  .ie9 .grid__row, .ie9
-  [class*='grid__row'] {
-    display: table-cell;
-    float: left; }
-
-.tile-1,
-.grid__col-1 {
-  flex-basis: 50%;
-  width: 50%;
-  justify-content: center;
-  flex-grow: 0;
-  flex-shrink: 0;
-  min-width: 25%;
-  flex-basis: 25%;
-  overflow: hidden; }
-  .ie9 .tile-1, .ie9
-  .grid__col-1 {
-    width: 25%; }
-
-.tile-2,
-.grid__col-2 {
-  flex-basis: 100%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  min-width: 50%;
-  flex-basis: 50%;
-  overflow: hidden; }
-  .ie9 .tile-2, .ie9
-  .grid__col-2 {
-    width: 50%; }
-
-.tile-3,
-.grid__col-3 {
-  flex-basis: 100%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  min-width: 75%;
-  flex-basis: 75%;
-  overflow: hidden; }
-  .ie9 .tile-3, .ie9
-  .grid__col-3 {
-    width: 75%; }
-
-.tile-4,
-.grid__col-4 {
-  flex-basis: 100%;
-  flex-grow: 0;
-  flex-shrink: 0;
-  min-width: 100%;
-  flex-basis: 100%;
-  overflow: hidden; }
-  .ie9 .tile-4, .ie9
-  .grid__col-4 {
-    width: 100%; }
-
-.tile-one-third {
-  flex-basis: 100%;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 33.3333333333%;
-  min-width: 33.3333333333%; }
-  .ie9 .tile-one-third {
-    width: 33.3333333333%; }
-
-.tile-two-thirds {
-  flex-basis: 100%;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: 66.6666666667%;
-  min-width: 66.6666666667%; }
-  .ie9 .tile-two-thirds {
-    width: 66.6666666667%; }
-
 h1,
 h1.flexifont {
   font-size: 20.7385152499px;
@@ -439,8 +299,571 @@ small.flexifont {
 .has-right-margin {
   margin-right: 1vw; }
 
-.is-full-width,
-[class*='tile'] p {
+.container {
+  max-width: 1800px;
+  margin: auto; }
+
+.grid-wrapper {
+  width: 100%; }
+
+.grid,
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  margin: auto;
+  max-width: 1800px;
+  width: 100%; }
+  .ie9 .grid, .ie9
+  .grid-1, .ie9
+  .grid-2, .ie9
+  .grid-3, .ie9
+  .grid-4, .ie9
+  .grid-5, .ie9
+  .grid-6 {
+    display: table;
+    width: 100%; }
+  .grid,
+  .grid *,
+  .grid-1,
+  .grid-2,
+  .grid-3,
+  .grid-4,
+  .grid-5,
+  .grid-6,
+  .grid-1 *,
+  .grid-2 *,
+  .grid-3 *,
+  .grid-4 *,
+  .grid-5 *,
+  .grid-6 * {
+    box-sizing: border-box; }
+
+.tile,
+[class*='tile-'],
+.tile-auto {
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: auto; }
+  .ie9 .tile, .ie9
+  [class*='tile-'], .ie9
+  .tile-auto {
+    display: table-cell;
+    float: left; }
+  .tile div,
+  [class*='tile-'] div,
+  .tile-auto div {
+    max-width: 100%; }
+
+ul.grid,
+ul[class*='grid-'] {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 100%;
+  margin: auto;
+  max-width: 1800px;
+  width: 100%; }
+  .ie9 ul.grid, .ie9
+  ul[class*='grid-'] {
+    display: table;
+    width: 100%; }
+  ul.grid,
+  ul.grid *,
+  ul[class*='grid-'],
+  ul[class*='grid-'] * {
+    box-sizing: border-box; }
+  ul.grid > li,
+  ul[class*='grid-'] > li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-basis: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: auto; }
+    .ie9 ul.grid > li, .ie9
+    ul[class*='grid-'] > li {
+      display: table-cell;
+      float: left; }
+    ul.grid > li div,
+    ul[class*='grid-'] > li div {
+      max-width: 100%; }
+
+.grid-1 > .tile-1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .grid-1 > .tile-1 {
+    width: 100%; }
+
+.tile-1of1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .tile-1of1 {
+    width: 100%; }
+
+.grid-2 > .tile-1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 50%;
+  flex-basis: 50%; }
+  .ie9 .grid-2 > .tile-1 {
+    width: 50%; }
+
+.tile-1of2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 50%;
+  flex-basis: 50%; }
+  .ie9 .tile-1of2 {
+    width: 50%; }
+
+.grid-2 > .tile-2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .grid-2 > .tile-2 {
+    width: 100%; }
+
+.tile-2of2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .tile-2of2 {
+    width: 100%; }
+
+.grid-3 > .tile-1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 33.3333333333%;
+  flex-basis: 33.3333333333%; }
+  .ie9 .grid-3 > .tile-1 {
+    width: 33.3333333333%; }
+
+.tile-1of3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 33.3333333333%;
+  flex-basis: 33.3333333333%; }
+  .ie9 .tile-1of3 {
+    width: 33.3333333333%; }
+
+.grid-3 > .tile-2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 66.6666666667%;
+  flex-basis: 66.6666666667%; }
+  .ie9 .grid-3 > .tile-2 {
+    width: 66.6666666667%; }
+
+.tile-2of3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 66.6666666667%;
+  flex-basis: 66.6666666667%; }
+  .ie9 .tile-2of3 {
+    width: 66.6666666667%; }
+
+.grid-3 > .tile-3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .grid-3 > .tile-3 {
+    width: 100%; }
+
+.tile-3of3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .tile-3of3 {
+    width: 100%; }
+
+.grid-4 > .tile-1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 25%;
+  flex-basis: 25%; }
+  .ie9 .grid-4 > .tile-1 {
+    width: 25%; }
+
+.tile-1of4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 25%;
+  flex-basis: 25%; }
+  .ie9 .tile-1of4 {
+    width: 25%; }
+
+.grid-4 > .tile-2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 50%;
+  flex-basis: 50%; }
+  .ie9 .grid-4 > .tile-2 {
+    width: 50%; }
+
+.tile-2of4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 50%;
+  flex-basis: 50%; }
+  .ie9 .tile-2of4 {
+    width: 50%; }
+
+.grid-4 > .tile-3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 75%;
+  flex-basis: 75%; }
+  .ie9 .grid-4 > .tile-3 {
+    width: 75%; }
+
+.tile-3of4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 75%;
+  flex-basis: 75%; }
+  .ie9 .tile-3of4 {
+    width: 75%; }
+
+.grid-4 > .tile-4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .grid-4 > .tile-4 {
+    width: 100%; }
+
+.tile-4of4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .tile-4of4 {
+    width: 100%; }
+
+.grid-5 > .tile-1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 20%;
+  flex-basis: 20%; }
+  .ie9 .grid-5 > .tile-1 {
+    width: 20%; }
+
+.tile-1of5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 20%;
+  flex-basis: 20%; }
+  .ie9 .tile-1of5 {
+    width: 20%; }
+
+.grid-5 > .tile-2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 40%;
+  flex-basis: 40%; }
+  .ie9 .grid-5 > .tile-2 {
+    width: 40%; }
+
+.tile-2of5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 40%;
+  flex-basis: 40%; }
+  .ie9 .tile-2of5 {
+    width: 40%; }
+
+.grid-5 > .tile-3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 60%;
+  flex-basis: 60%; }
+  .ie9 .grid-5 > .tile-3 {
+    width: 60%; }
+
+.tile-3of5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 60%;
+  flex-basis: 60%; }
+  .ie9 .tile-3of5 {
+    width: 60%; }
+
+.grid-5 > .tile-4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 80%;
+  flex-basis: 80%; }
+  .ie9 .grid-5 > .tile-4 {
+    width: 80%; }
+
+.tile-4of5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 80%;
+  flex-basis: 80%; }
+  .ie9 .tile-4of5 {
+    width: 80%; }
+
+.grid-5 > .tile-5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .grid-5 > .tile-5 {
+    width: 100%; }
+
+.tile-5of5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .tile-5of5 {
+    width: 100%; }
+
+.grid-6 > .tile-1 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 16.6666666667%;
+  flex-basis: 16.6666666667%; }
+  .ie9 .grid-6 > .tile-1 {
+    width: 16.6666666667%; }
+
+.tile-1of6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 16.6666666667%;
+  flex-basis: 16.6666666667%; }
+  .ie9 .tile-1of6 {
+    width: 16.6666666667%; }
+
+.grid-6 > .tile-2 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 33.3333333333%;
+  flex-basis: 33.3333333333%; }
+  .ie9 .grid-6 > .tile-2 {
+    width: 33.3333333333%; }
+
+.tile-2of6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 33.3333333333%;
+  flex-basis: 33.3333333333%; }
+  .ie9 .tile-2of6 {
+    width: 33.3333333333%; }
+
+.grid-6 > .tile-3 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 50%;
+  flex-basis: 50%; }
+  .ie9 .grid-6 > .tile-3 {
+    width: 50%; }
+
+.tile-3of6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 50%;
+  flex-basis: 50%; }
+  .ie9 .tile-3of6 {
+    width: 50%; }
+
+.grid-6 > .tile-4 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 66.6666666667%;
+  flex-basis: 66.6666666667%; }
+  .ie9 .grid-6 > .tile-4 {
+    width: 66.6666666667%; }
+
+.tile-4of6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 66.6666666667%;
+  flex-basis: 66.6666666667%; }
+  .ie9 .tile-4of6 {
+    width: 66.6666666667%; }
+
+.grid-6 > .tile-5 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 83.3333333333%;
+  flex-basis: 83.3333333333%; }
+  .ie9 .grid-6 > .tile-5 {
+    width: 83.3333333333%; }
+
+.tile-5of6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 83.3333333333%;
+  flex-basis: 83.3333333333%; }
+  .ie9 .tile-5of6 {
+    width: 83.3333333333%; }
+
+.grid-6 > .tile-6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .grid-6 > .tile-6 {
+    width: 100%; }
+
+.tile-6of6 {
+  flex-grow: 0;
+  flex-shrink: 0;
+  overflow: hidden;
+  min-width: 100%;
+  flex-basis: 100%; }
+  .ie9 .tile-6of6 {
+    width: 100%; }
+
+.test-is-column {
+  flex-direction: column;
+  height: 100%; }
+
+.tiles-have-margin > .tile, .tiles-have-margin > [class*='tile-'], .tiles-have-margin > .tile-auto {
+  margin: 1vw 1vw; }
+
+ul.tiles-have-margin > li {
+  margin: 1vw 1vw; }
+
+.padded-grid > .tile, .padded-grid > [class*='tile-'], .padded-grid > .tile-auto {
+  padding: 1vw 1vw;
+  background-clip: content-box; }
+
+[class*='tile-'].padded-grid {
+  padding: 0; }
+
+ul.padded-grid > li {
+  padding: 1vw 1vw;
+  background-clip: content-box; }
+
+.cards-have-padding > .tile > .card, .cards-have-padding > [class*='tile-'] > .card, .cards-have-padding > .tile-auto > .card {
+  padding: 1vw 1vw;
+  background-clip: content-box; }
+
+[class*='tile-'].cards-have-padding {
+  padding: 0; }
+
+ul.cards-have-padding > li > .card {
+  padding: 1vw 1vw;
+  background-clip: content-box; }
+
+ul.hex-grid > li,
+ol.hex-grid > li {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.hex-tile,
+ul.hex-grid > li,
+ol.hex-grid > li {
+  outline: 1px dotted orange;
+  width: 200px;
+  height: 0;
+  padding-bottom: 230.9468822171px;
+  float: left;
+  transform-origin: 50% 50%;
+  transform: rotate(-60deg) skewY(30deg);
+  overflow: hidden; }
+  .hex-tile:nth-child(2n+1),
+  ul.hex-grid > li:nth-child(2n+1),
+  ol.hex-grid > li:nth-child(2n+1) {
+    position: relative;
+    left: -86px; }
+  .hex-tile:nth-child(2n),
+  ul.hex-grid > li:nth-child(2n),
+  ol.hex-grid > li:nth-child(2n) {
+    position: relative;
+    bottom: -165px;
+    left: -86px; }
+  .hex-tile article,
+  ul.hex-grid > li article,
+  ol.hex-grid > li article {
+    opacity: 0.5;
+    background: url(http://placehold.it/200x200) no-repeat 50% 50%;
+    background-size: contain;
+    overflow: hidden;
+    transform-origin: 50% 50%;
+    transform: skewY(-30deg) rotate(60deg);
+    display: block;
+    position: absolute;
+    left: -100%;
+    right: -100%;
+    width: auto;
+    height: 100%;
+    margin: 0 auto; }
+
+.is-full-width {
   width: 100%; }
 
 .short-reading-text {
@@ -497,6 +920,15 @@ body {
 * {
   font-family: Helvetica, Arial, Sans-Serif; }
 
-[class*='tile'] {
-  background: #eee;
+.tile,
+[class*='tile-'],
+ul.grid li {
+  background-color: rgba(0, 0, 0, 0.1);
   outline: 1px dashed #666; }
+  .tile .card,
+  [class*='tile-'] .card,
+  ul.grid li .card {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    outline: 1px dashed #f00; }

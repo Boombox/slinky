@@ -9,13 +9,18 @@ body {
   font-family: Helvetica, Arial, Sans-Serif;
 }
 
-[class*='tile'] {
-  background: #eee;
+.tile,
+[class*='tile-'],
+ul.grid li {
+  background-color: rgba(0,0,0,0.1);
   outline: 1px dashed #666;
 
-  p {
-    //@extend %centered-text;
-    @extend %is-full-width;
+  .card {
+    //@extend %p--flexifont;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    outline: 1px dashed #f00;
   }
 }
 
@@ -24,3 +29,18 @@ body {
 //  outline: 1px dotted #ccc;
 //}
 
+//article {
+//  background-color: rgba(0,0,0,0.1);
+//  outline: 1px dashed #f00;
+//}
+
+//#grid-test {
+//  [class*='tile'] {
+//    background: none;
+//    outline: 0;
+//
+//    article {
+//      align-items: center;
+//    }
+//  }
+//}
