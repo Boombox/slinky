@@ -29,7 +29,10 @@ gulp.task('browserSync', function() {
 
 // Gulp watch syntax
 gulp.task('watch', ['browserSync', 'sass'], function (){
-  gulp.watch('*.scss', ['sass']);
+  //gulp.watch('*.scss', ['sass']);
+  //dev
+  gulp.watch('../**/*.scss', ['sass']);
+
   // Reloads the browser whenever HTML or JS files change
   gulp.watch('*.html', browserSync.reload);
   gulp.watch('*.js', browserSync.reload);
