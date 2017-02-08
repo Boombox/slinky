@@ -300,6 +300,7 @@ small.flexifont {
   margin-right: 1vw; }
 
 .container {
+  width: 100%;
   max-width: 1800px;
   margin: auto; }
 
