@@ -1,26 +1,8 @@
 /**
  * Slinky
  */
-//@import "node_modules/normalize-scss/sass/normalize";
-//
-//@import "variables";
-//@import "custom_variables";
-//
-//@import "mixins";
-//@import "classes";
-//
-//@import "style";
-
-
-// Development
 @import "node_modules/normalize-scss/sass/normalize";
 
-@import "variables_dev";
-@import "custom_variables";
-
-@import "mixins_dev";
-@import "classes_dev";
-
-@import "style";
-
-
+@import "variables";
+@import "mixins";
+@import "classes";
