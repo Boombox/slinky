@@ -33,9 +33,9 @@
     "gulp-sourcemaps": "^2.4.0",
     "normalize-scss": "^6.0.0",
     "postcss-flexbugs-fixes": "^2.1.0",
-    "slinky_scaling": "^0.0.x",
-    "slinky_spacing": "^0.0.x",
-    "slinky_tiles": "^0.0.x",
-    "slinky_utilities": "^0.0.x"
+    "slinky_scaling": "^0.1.x",
+    "slinky_spacing": "^0.1.x",
+    "slinky_tiles": "^0.1.x",
+    "slinky_utilities": "^0.1.x"
   }
 }
